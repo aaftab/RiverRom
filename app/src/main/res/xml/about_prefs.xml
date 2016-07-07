@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/rom_logo" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+    <PreferenceScreen android:icon="@drawable/evren" android:title="Evren35" android:summary="The ROM Dev">
+        <intent android:action="android.intent.action.VIEW" android:data="http://ndroid.io/forums/profile/evren35" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="External Links" />
+    <PreferenceScreen android:icon="@drawable/ndroid" android:title="Development Thread" android:summary="Click to visit the ROM thread">
+        <intent android:action="android.intent.action.VIEW" android:data="http://www.ndroid.io/forums/thread/riverrom-unmod-relase/" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/google" android:title="Google Plus Community" android:summary="Click to visit and join">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.plus.google.com/108256582164232965502" />
+    </PreferenceScreen>
+    <PreferenceCategory android:title="Support" />
+    <PreferenceScreen android:icon="@drawable/paypal" android:title="Donate ME" android:summary="Keep the Project Alive">
+        <intent android:action="android.intent.action.VIEW" android:data="https://www.paypal.me/EKaynar" />
+    </PreferenceScreen>
+</PreferenceScreen>

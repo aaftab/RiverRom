@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" Batterybar Animation " />
+    <PreferenceScreen android:title="Battery Settings" android:summary="battery bar, text, etc">
+        <PreferenceCategory android:title="Battery Icon Settings">
+            <SwitchPreference android:title="Display Percentage" android:key="display_battery_percentage" android:summaryOn="Battery text shown" android:summaryOff="Battery text is hidden" />
+            <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:defaultValue="0" android:entryValues="@array/battery_bar_values" />
+            <SwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
+            <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
+            <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:defaultValue="1" android:entryValues="@array/battery_bar_thickness_values" />
+            <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:summary="Choose color of battery bar" android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceCategory android:title="Wallpaper Scrolling">
+        <SwitchPreference android:title="Wallpaper scrolling " android:key="wallpaper_scroll" android:summary="Disable Paralax Effect! Applys after Reboot" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Colorized Launcher">
+        <com.wubydax.romcontrol.prefs.ColorPickerPreference android:title="Icons Text color" android:key="launcher_icons_text_color" android:summary="Choose color. Reboot for apply" android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Reboot Phone To Taking The Changes" />
+</PreferenceScreen>

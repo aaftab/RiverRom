@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:icon="@drawable/toolbox" android:title="Toolbox" android:summary="Edit apps in Toolbox">
+        <intent android:targetPackage="com.wubydax.toolboxsettings" android:targetClass="com.wubydax.toolboxsettings.ToolboxSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/adaway" android:title="AdAway" android:summary="Enable or Disable Ad Blocking">
+        <intent android:targetPackage="org.adaway" android:targetClass="org.adaway.ui.BaseActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:icon="@drawable/su" android:title="SuperSU" android:key="eu.chainfire.supersu.MainActivity" android:summary="Root Access Control" />
+    <PreferenceScreen android:title="Development Settings" android:summary="open hidden development menu">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.DevelopmentSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Device Network Info and Settings" android:summary="Mobile Network and wifi Information and Settings">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TestingSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="APN Set up" android:summary="Modify phone access points">
+        <intent android:targetPackage="com.android.settings" android:action="android.settings.APN_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Battery Status" android:summary="All the battery information is here">
+        <intent android:targetPackage="com.sec.android.app.factorykeystring" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.status.BatteryStatus" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="IMEI" android:summary="View IMEI number">
+        <intent android:targetPackage="com.sec.android.app.servicemodeapp" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.modemui.activities.ShowIMEI" />
+    </PreferenceScreen>
+    <SwitchPreference android:title="Outdoor Mode" android:key="display_outdoor_mode" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <PreferenceScreen android:title="Wipe Hangouts cache - Automatic Reboot" android:key="script#hangouts_reset" android:summary="Clear Hangouts if not getting notifications" />
+    <SwitchPreference android:title="Screen Pinning" android:key="lock_to_app_enabled" android:defaultValue="false" android:summaryOn="Option is currently enabled" android:summaryOff="Option is currently disabled" />
+    <SwitchPreference android:title="Phone shortcut in Lockscreen" android:key="set_shortcuts_phone" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
+    <SwitchPreference android:title="Camera shortcut in Lockscreen" android:key="set_shortcuts_mode" android:defaultValue="1" android:summaryOn="Shown" android:summaryOff="Hidden" />
+</PreferenceScreen>

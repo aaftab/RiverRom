@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title=" AddOns Mod " />
+    <SwitchPreference android:title="Enable IME Notification" android:key="enable_ime_notif" android:defaultValue="true" android:summaryOn="Input method choice active" android:summaryOff="Input method choice hidden" />
+    <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/lockscreen_notif_entries" android:title="Notifications Shown on Lockscreen" android:key="lockscreen_notifications" android:summary="Number shown on lockscreen" android:defaultValue="2" android:entryValues="@array/lockscreen_notif_values" />
+    <SwitchPreference android:title="Make Ongoing Notifications Removable" android:key="ongoing_notifications" android:defaultValue="false" android:summaryOn="Ongoing Notifications are removeable" android:summaryOff="Ongoing Notifications are permanent" />
+    <SwitchPreference android:title="Ambient Display" android:key="doze_toggle" android:defaultValue="true" android:summaryOn="Option enabled" android:summaryOff="Option disabled" />
+    <SwitchPreference android:title="Power Saving Mode Notifications" android:key="psm_notif" android:defaultValue="true" android:summaryOn="Power Saving Mode notification is enabled" android:summaryOff="Power Saving Mode notification is disabled" />
+    <PreferenceCategory android:title=" Home Button " />
+    <SwitchPreference android:title="Unlock screen Home button" android:key="wake_with_home key" android:summaryOn="Enabled" android:summaryOff="disabled" />
+    <PreferenceCategory android:title="Fast Charge" />
+    <SwitchPreference android:title="Fast Charging" android:key="adaptive_fast_charging" android:summary="Enable or disable Fast Charging" android:defaultValue="true" />
+    <PreferenceCategory android:title=" VolumeCursor Mod " />
+    <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/pref_volume_cursor_titles" android:title="Volume keys move cursor (reboot required)" android:key="krypton_keyboard_volume_control" android:defaultValue="0" android:entryValues="@array/pref_volume_cursor_values" />
+    <PreferenceCategory android:title=" SingleSwipe QuickPanel " />
+    <SwitchPreference android:title="Single swipe for Quickpanel" android:key="tweaks_qs_pulldown" android:defaultValue="true" android:summaryOn="Feature is enabled" android:summaryOff="Feature is disabled" />
+    <PreferenceCategory android:title=" Heads Up Controlled " />
+    <SwitchPreference android:title="Heads Up Notifications" android:key="heads_up_notifications_enabled" android:defaultValue="0" android:summaryOn="Heads Up disabled" android:summaryOff="Heads Up enabled" />
+    <PreferenceCategory android:title=" PowerMenu " />
+    <SwitchPreference android:title="Emergency Mode" android:key="power_emergency" android:defaultValue="false" android:summaryOn="Emergency mode will be shown" android:summaryOff="Currently removed" />
+    <PreferenceCategory android:title=" Immersive Mode " />
+    <com.wubydax.romcontrol.prefs.MyListPreference android:entries="@array/immersive_entries" android:title="Immersive Mode (Fullscreen)" android:key="policy_control" android:summary="%s" android:entryValues="@array/immersive_values" />
+</PreferenceScreen>

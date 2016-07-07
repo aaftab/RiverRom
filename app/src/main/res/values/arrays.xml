@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_bar_entries">
+        <item>Hide</item>
+        <item>Show</item>
+    </string-array>
+    <string-array name="battery_bar_style_entries">
+        <item>Regular</item>
+        <item>Center-mirrored</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_entries">
+        <item>1 dp</item>
+        <item>2 dp</item>
+        <item>3 dp</item>
+        <item>4 dp</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="battery_bar_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Right clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="call_delay_entries">
+        <item>0s ( No Delay )</item>
+        <item>1s</item>
+        <item>2.5s</item>
+        <item>5s (Default)</item>
+    </string-array>
+    <string-array name="call_delay_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="SignalPositionName">
+        <item>Shown on the Right</item>
+        <item>Shown on the Left</item>
+    </string-array>
+    <string-array name="SignalPositionValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="show_network_speed_entries">
+        <item>Refresh interval 0.5 seconds</item>
+        <item>Refresh interval 1 second</item>
+        <item>Refresh Interval 2 seconds</item>
+        <item>Refresh Interval 3 seconds</item>
+        <item>Refresh Interval 4 seconds</item>
+        <item>Refresh Interval 5 seconds</item>
+    </string-array>
+    <string-array name="show_network_speed_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_5">false</item>
+    <item type="array" name="APKTOOL_DUMMY_6">false</item>
+    <item type="array" name="APKTOOL_DUMMY_8">false</item>
+    <item type="array" name="APKTOOL_DUMMY_9">false</item>
+    <string-array name="pref_volume_cursor_titles">
+        <item>Disable</item>
+        <item>Up=left Down=right</item>
+        <item>Up=right Down=left</item>
+    </string-array>
+    <string-array name="pref_volume_cursor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sb_traffic_entries">
+        <item>@string/sb_traffic_dont_show</item>
+        <item>@string/sb_traffic_left</item>
+        <item>@string/sb_traffic_right</item>
+    </string-array>
+    <string-array name="sb_traffic_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="listview_animation_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_wave_left</item>
+        <item>@string/listview_wave_right</item>
+        <item>@string/listview_scale</item>
+        <item>@string/listview_alpha</item>
+        <item>@string/listview_stack_top</item>
+        <item>@string/listview_stack_bottom</item>
+        <item>@string/listview_unfold</item>
+        <item>@string/listview_fold</item>
+        <item>@string/listview_translate_left</item>
+        <item>@string/listview_translate_right</item>
+        <item>@string/listview_rotate</item>
+    </string-array>
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="listview_interpolator_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_accelerate_interpolator</item>
+        <item>@string/listview_decelerate_interpolator</item>
+        <item>@string/listview_accelerate_decelerate_interpolator</item>
+        <item>@string/listview_anticipate_interpolator</item>
+        <item>@string/listview_overshoot_interpolator</item>
+        <item>@string/listview_anticipate_overshoot_interpolator</item>
+        <item>@string/listview_bounce_interpolator</item>
+    </string-array>
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_entries">
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="TrafficNamei">
+        <item>is not displayed</item>
+        <item>display only download</item>
+        <item>display only Upload</item>
+        <item>two-line display upload and download</item>
+        <item>merge display upload and download</item>
+    </string-array>
+    <string-array name="TrafficValuei">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="traffic_entries">
+        <item>Disabled</item>
+        <item>Outgoing</item>
+        <item>Incoming</item>
+        <item>Show Both</item>
+    </string-array>
+    <string-array name="traffic_update_entries">
+        <item>500 ms</item>
+        <item>1000 ms</item>
+        <item>1500 ms</item>
+        <item>2000 ms</item>
+    </string-array>
+    <string-array name="traffic_update_values">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="traffic_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_unit_entries">
+        <item>Bits per second</item>
+        <item>Bytes per second</item>
+    </string-array>
+    <string-array name="traffic_unit_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clock_ampm_entries">
+        <item>Hide AM/PM</item>
+        <item>Small AM/PM</item>
+        <item>Regular AM/PM</item>
+    </string-array>
+    <string-array name="clock_ampm_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_display_entries">
+        <item>Hide date</item>
+        <item>little date</item>
+        <item>big date</item>
+    </string-array>
+    <string-array name="clock_date_display_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE dd MMMM</item>
+        <item>EEEE dd MMMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+    </string-array>
+    <string-array name="clock_date_position_entries">
+        <item>Clock date left</item>
+        <item>Clock date right</item>
+    </string-array>
+    <string-array name="clock_date_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clock_date_style_entries">
+        <item>Normal</item>
+        <item>Line</item>
+        <item>Capital</item>
+    </string-array>
+    <string-array name="clock_date_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_font_style_entries">
+        <item>Normal</item>
+        <item>Italic</item>
+        <item>Bold</item>
+        <item>Bold Italic</item>
+        <item>Light</item>
+        <item>Light Italic</item>
+        <item>Thin</item>
+        <item>Thin Italic</item>
+        <item>Condensed</item>
+        <item>Condensed Italic</item>
+        <item>Condensed bold</item>
+        <item>Condensed bold italic</item>
+        <item>Medium</item>
+        <item>Medium Italic</item>
+    </string-array>
+    <string-array name="clock_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Right clock</item>
+        <item>Center clock</item>
+        <item>Left clock</item>
+    </string-array>
+    <string-array name="lockscreen_notif_entries">
+        <item>2 (Stock)</item>
+        <item>3 max shown</item>
+        <item>4 max shown</item>
+        <item>5 max shown</item>
+        <item>6 max shown</item>
+        <item>7 max shown</item>
+    </string-array>
+    <string-array name="lockscreen_notif_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>About us</item>
+        <item>Statusbar Settings</item>
+        <item>Notification Panel Settings</item>
+        <item>Carrier Mods</item>
+        <item>Backup/Restore</item>
+        <item>Virtual Button</item>
+        <item>Phone Settings</item>
+        <item>Music</item>
+        <item>Other Settings</item>
+        <item>AddOns</item>
+        <item>Select theme</item>
+    </string-array>
+    <string-array name="clock_weekday_entries">
+        <item>Hide weekday</item>
+        <item>Small weekday</item>
+        <item>Regular weekday</item>
+    </string-array>
+    <string-array name="clock_weekday_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_date">
+        <item>Fri, October 16 (Stock)</item>
+        <item>Fri, 16 October</item>
+        <item>16 October, 2014</item>
+        <item>2014, October 16</item>
+        <item>"Thursday
+October 16, 2014"</item>
+        <item>"Thursday
+Oct 16, 2014"</item>
+        <item>Oct-16-2014</item>
+        <item>"Thursday
+Oct-16-2014"</item>
+        <item>10-16-2014</item>
+        <item>"Thursday
+10-16-2014"</item>
+        <item>10-16-14</item>
+        <item>"Thursday
+10-16-14"</item>
+        <item>Oct/16/2014</item>
+        <item>"Thursday
+Oct/16/2014"</item>
+        <item>10/16/2014</item>
+        <item>"Thursday
+10/16/2014"</item>
+        <item>10/16/14</item>
+        <item>"Thursday
+10/16/14"</item>
+    </string-array>
+    <string-array name="custom_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="volbtn_timeout_entries">
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string-array name="volbtn_timeout_values">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="immersive_entries">
+        <item>Immersive Off (Default)</item>
+        <item>Immersive On (FullScreen)</item>
+        <item>Hide StatusBar</item>
+        <item>Hide Navigation</item>
+    </string-array>
+    <string-array name="immersive_values">
+        <item>immersive.full</item>
+        <item>immersive.full=*</item>
+        <item>immersive.status=*</item>
+        <item>immersive.navigation=*</item>
+    </string-array>
+    <string-array name="sb_traffic_font_style_entries">
+        <item>@string/sb_traffic_font_normal</item>
+        <item>@string/sb_traffic_font_italic</item>
+        <item>@string/sb_traffic_font_bold</item>
+        <item>@string/sb_traffic_font_bold_italic</item>
+        <item>@string/sb_traffic_font_light</item>
+        <item>@string/sb_traffic_font_light_italic</item>
+        <item>@string/sb_traffic_font_thin</item>
+        <item>@string/sb_traffic_font_thin_italic</item>
+        <item>@string/sb_traffic_font_condensed</item>
+        <item>@string/sb_traffic_font_condensed_italic</item>
+        <item>@string/sb_traffic_font_condensed_light</item>
+        <item>@string/sb_traffic_font_condensed_light_italic</item>
+        <item>@string/sb_traffic_font_condensed_bold</item>
+        <item>@string/sb_traffic_font_condensed_bold_italic</item>
+        <item>@string/sb_traffic_font_medium</item>
+        <item>@string/sb_traffic_font_medium_italic</item>
+        <item>@string/sb_traffic_font_black</item>
+        <item>@string/sb_traffic_font_black_italic</item>
+    </string-array>
+    <string-array name="traffic_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="sb_traffic_line_entries">
+        <item>Single</item>
+        <item>Dual</item>
+    </string-array>
+    <string-array name="sb_traffic_line_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="visualizer_style_entries">
+        <item>Hide</item>
+        <item>Random</item>
+        <item>Circular</item>
+        <item>Lines</item>
+        <item>Top Bottom Graphic</item>
+        <item>Circle</item>
+        <item>Cycle Color Graphic</item>
+        <item>CyanogenMod</item>
+    </string-array>
+    <string-array name="visualizer_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_entries">
+        <item>Default</item>
+        <item>Convex</item>
+        <item>Concave</item>
+        <item>Glass</item>
+        <item>Convex square</item>
+        <item>Concave square</item>
+        <item>Glass square</item>
+        <item>Realms</item>
+        <item>Magnifying glass</item>
+        <item>Dark light</item>
+        <item>Metal</item>
+        <item>Leather</item>
+        <item>Leather rounded</item>
+        <item>Leather round</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Dark theme</item>
+        <item>Light theme</item>
+    </string-array>
+    <string-array name="toggle_buttons_background_values">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_12">false</item>
+    <item type="array" name="APKTOOL_DUMMY_13">false</item>
+    <string-array name="toggle_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_14">false</item>
+    <item type="array" name="APKTOOL_DUMMY_15">false</item>
+    <item type="array" name="APKTOOL_DUMMY_16">false</item>
+    <item type="array" name="APKTOOL_DUMMY_17">false</item>
+    <string-array name="toggle_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_18">false</item>
+    <item type="array" name="APKTOOL_DUMMY_19">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_20">false</item>
+    <item type="array" name="APKTOOL_DUMMY_21">false</item>
+    <item type="array" name="APKTOOL_DUMMY_22">false</item>
+    <item type="array" name="APKTOOL_DUMMY_23">false</item>
+    <item type="array" name="APKTOOL_DUMMY_24">false</item>
+    <item type="array" name="APKTOOL_DUMMY_25">false</item>
+    <item type="array" name="APKTOOL_DUMMY_26">false</item>
+    <item type="array" name="APKTOOL_DUMMY_27">false</item>
+    <item type="array" name="APKTOOL_DUMMY_28">false</item>
+    <item type="array" name="APKTOOL_DUMMY_29">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_30">false</item>
+    <item type="array" name="APKTOOL_DUMMY_31">false</item>
+    <item type="array" name="APKTOOL_DUMMY_32">false</item>
+    <item type="array" name="APKTOOL_DUMMY_33">false</item>
+    <item type="array" name="APKTOOL_DUMMY_34">false</item>
+    <item type="array" name="APKTOOL_DUMMY_35">false</item>
+    <item type="array" name="APKTOOL_DUMMY_38">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_40">false</item>
+    <item type="array" name="APKTOOL_DUMMY_41">false</item>
+    <item type="array" name="APKTOOL_DUMMY_42">false</item>
+    <item type="array" name="APKTOOL_DUMMY_43">false</item>
+    <item type="array" name="APKTOOL_DUMMY_44">false</item>
+    <item type="array" name="APKTOOL_DUMMY_45">false</item>
+    <item type="array" name="APKTOOL_DUMMY_46">false</item>
+    <item type="array" name="APKTOOL_DUMMY_47">false</item>
+    <item type="array" name="APKTOOL_DUMMY_48">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_50">false</item>
+    <item type="array" name="APKTOOL_DUMMY_51">false</item>
+</resources>
